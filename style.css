@@ -1,0 +1,43 @@
+.bodyI{
+    font-family:cursive;
+    border: groove;
+    color: #ff0000;
+    margin: 10px 10px 10px 10px;
+    background-color: #00ffff;
+}
+.grid img{
+    border: solid;
+}
+.header{
+font-style:italic;
+font-size: larger;
+background-color: #e9967a;
+}
+.step{
+    border: groove;
+    font-size: 0.6cm;
+    background-color: #7fff00;
+}
+.grid{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.origami{
+    background-color: #ffd700;
+    padding: 10px 40px 50px 40px;
+    font-size: 0.6cm;
+    width: 310;
+}
+.animal{
+    background-color: #bdb76b;
+    padding: 10px 260px 50px 40px;
+    font-size: 0.6cm;
+    width: 310;
+}
+.forest{
+    background-color: #b8860b;
+    padding: 10px 260px 50px 40px;
+    font-size: 0.6cm;
+    width: 310;
+}
