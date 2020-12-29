@@ -2,7 +2,7 @@
     font-family:cursive;
     border: groove;
     color: #ff0000;
-    margin: 10px 10px 10px 10px;
+    padding-left: 20px;
     background-color: #00ffff;
 }
 .grid img{
@@ -11,11 +11,13 @@
 .header{
 font-style:italic;
 font-size: larger;
+padding-left: 20px;
 background-color: #e9967a;
 }
 .step{
     border: groove;
     font-size: 0.6cm;
+    padding-left: 20px;
     background-color: #7fff00;
 }
 .grid{
@@ -37,7 +39,31 @@ background-color: #e9967a;
 }
 .forest{
     background-color: #b8860b;
-    padding: 10px 260px 50px 40px;
+    padding: 10px 242px 50px 40px;
     font-size: 0.6cm;
     width: 310;
+}
+.origami img{
+    margin-left: 80px;
+}
+.animal img{
+    margin-left: 60px;
+}
+.forest img{
+    margin-left: 50px;
+}
+a:link{
+    color:blue
+}
+a:visited{
+    color:aqua
+}
+.origami img:hover{
+    transform: scale(1.2);
+}
+.animal img:hover{
+    transform: scale(1.2);
+}
+.forest img:hover{
+    transform: scale(1.2);
 }
